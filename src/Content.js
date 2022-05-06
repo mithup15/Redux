@@ -10,8 +10,6 @@ const  dispatch=useDispatch();
         event.preventDefault();
         dispatch(change({name}));
         console.log(document.getElementById('name').value);
-        
-        //alert("Hey! Bot");
       
     }
     return(
